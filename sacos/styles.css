@@ -103,7 +103,10 @@ h1, h2, h3, h4, .font-display{
   background-size: 64px 64px;
   mask-image: radial-gradient(ellipse 60% 50% at 50% 0%, black 40%, transparent 100%);
 }
-
+.ambient-grid {
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+}
 /* ---------- Tabs ---------- */
 .tab-panel{ display: none; }
 .tab-panel.active{
