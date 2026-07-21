@@ -101,7 +101,7 @@ h1, h2, h3, h4, .font-display{
     linear-gradient(var(--border) 1px, transparent 1px),
     linear-gradient(90deg, var(--border) 1px, transparent 1px);
   background-size: 64px 64px;
-  mask-image: radial-gradient(ellipse 60% 50% at 50% 0%, black 40%, transparent 100%);
+  mask-image: radial-gradient(ellipse 70% 90% at 50% 50%, black 40%, transparent 120%);
 }
 
 /* ---------- Tabs ---------- */
